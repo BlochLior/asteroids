@@ -35,7 +35,6 @@ def main():
             if item.check_for_collisions(player):
                 print("Game over!")
                 sys.exit()
-
         for item in drawable:
             item.draw(screen)
         pygame.display.flip()
